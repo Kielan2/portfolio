@@ -168,10 +168,11 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		color: ghostwhite;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ff8e07;
+		color: #ff5b50;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -2519,7 +2520,7 @@ input, select, textarea {
 			width: 2.5em;
 			height: 2.5em;
 			display: block;
-			background: #ffffff;
+			background: #00458a;
 			border-radius: 100%;
 			color: #312450;
 			text-align: center;
@@ -2532,27 +2533,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #ff7e07;
+					color: #f74b3f;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #ff7e07;
+					color: #ff5b50;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #ff7e07;
+					color: #ff5b50;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #ff7e07;
+					color: #ff5b50;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #ff7e07;
+					color: #ff5b50;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #ff7e07;
+					color: #ff5b50;
 				}
 
 /* Image */
@@ -3778,7 +3779,9 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: black;
+				text-shadow: 20px 20px 20px 10px #002038;
+				transform: translatex(10px);
 			}
 
 			#sidebar nav a.active {
