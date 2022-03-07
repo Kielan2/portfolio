@@ -2520,7 +2520,7 @@ input, select, textarea {
 			width: 2.5em;
 			height: 2.5em;
 			display: block;
-			background: #00458a;
+			background: rgb(30, 30, 119);
 			border-radius: 100%;
 			color: #312450;
 			text-align: center;
@@ -3237,15 +3237,15 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background: linear-gradient(#01121b, #01121b, #004890);
+			background: linear-gradient(#01121b, #01121b, rgb(9, 9, 58), rgb(24, 24, 102));
 		}
 
 		.wrapper.style1-alt {
-			background: linear-gradient(#004890, #01121b)
+			background: linear-gradient(rgb(24, 24, 102), rgb(51, 51, 129), #01121b)
 		}
 
 		.wrapper.style2 {
-			background-color: #1a1a1a;
+			background-color: black;
 		}
 
 		.wrapper.style2-alt {
@@ -3263,7 +3263,31 @@ input, select, textarea {
 		.hoversections:hover {
 			transform: translateY(-25px);
 			box-shadow: 0px 0px 35px ghostwhite;
+			background-image: url(/html5up-hyperspace/images/code6.png);
+			-webkit-transition: all .5s;
+			-moz-transition: all .5s;
+			transition: all .5s;
 		}
+
+		.hoversections2:hover {
+			transform: translateY(-25px);
+			box-shadow: 0px 0px 35px ghostwhite;
+			background-image: url(/html5up-hyperspace/images/code4.jpg);
+			-webkit-transition: all .5s;
+			-moz-transition: all .5s;
+			transition: all .5s;
+		}
+
+		.hoversections3:hover {
+			transform: translateY(-25px);
+			box-shadow: 0px 0px 35px ghostwhite;
+			background-image: url(/html5up-hyperspace/images/code9.jpg);
+			-webkit-transition: all .5s;
+			-moz-transition: all .5s;
+			transition: all .5s;
+		}
+
+		
 
 		.wrapper.fullscreen {
 			display: -moz-flex;
@@ -3782,6 +3806,10 @@ input, select, textarea {
 				color: black;
 				text-shadow: 20px 20px 20px 10px #002038;
 				transform: translatex(10px);
+				-moz-transition: max-width 2s ease;
+				-webkit-transition: max-width 2s ease;
+				-ms-transition: max-width 2s ease;
+				transition: max-width 2s ease;
 			}
 
 			#sidebar nav a.active {
