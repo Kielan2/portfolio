@@ -3267,7 +3267,7 @@ input, select, textarea {
 			background-image: url(/html5up-hyperspace/images/kielanapi.netlify.app_.png);
 			-webkit-transition: all .5s;
 			-moz-transition: all .5s;
-			transition: all .5s;
+			transition: all .5s ease-out;
 		}
 
 		.hoversections2:hover {
@@ -3276,7 +3276,7 @@ input, select, textarea {
 			background-image: url(/html5up-hyperspace/images/code4.jpg);
 			-webkit-transition: all .5s;
 			-moz-transition: all .5s;
-			transition: all .5s;
+			transition: all .5s ease-out;
 		}
 
 		.hoversections3:hover {
@@ -3285,7 +3285,7 @@ input, select, textarea {
 			background-image: url(/html5up-hyperspace/images/code9.jpg);
 			-webkit-transition: all .5s;
 			-moz-transition: all .5s;
-			transition: all .5s;
+			transition: all .5s ease-out;
 		}
 
 		
@@ -3810,7 +3810,7 @@ input, select, textarea {
 				-moz-transition: max-width 2s ease;
 				-webkit-transition: max-width 2s ease;
 				-ms-transition: max-width 2s ease;
-				transition: max-width 2s ease;
+				transition: max-width 2s ease-out;
 			}
 
 			#sidebar nav a.active {
